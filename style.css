@@ -1,0 +1,21 @@
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  width: 600px;
+  margin: auto;
+}
+
+.box {
+  height: 150px;
+  border: 1px solid white;
+  transition: background-color 0.3s;
+  background-color: hotpink;
+}
+
+.box.clicked {
+  background-color: lime;
+}
+body {
+  background-color: lightblue;
+}
